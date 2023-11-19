@@ -1,16 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food website</title>
 
-</head>
+    <!-- Google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-    
-</body>
+    <!-- Font Awesome CDN -->
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar">
+        <!-- Logo -->
+        <img src="./img/logo.png" alt="company logo" class="logo" />
+
+        <!-- nav-list -->
+        <ul class="nav-list">
+          <li><a href="#" class="nav-link">Menu</a></li>
+          <li><a href="#" class="nav-link">Order</a></li>
+          <li><a href="#" class="nav-link">Restraunts</a></li>
+          <li><a href="#" class="nav-link">Track Order</a></li>
+        </ul>
+
+        <!-- nav actions -->
+        <div class="nav-actions">
+          <!-- search box -->
+          <div class="search">
+            <input
+              type="text"
+              class="search-box"
+              placeholder="Search Restaurants, Cuisine....."
+            />
+            <button class="search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+          <!-- cart button -->
+
+          <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
